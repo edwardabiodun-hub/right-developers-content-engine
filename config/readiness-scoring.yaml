@@ -1,0 +1,4 @@
+{
+  "fields": ["mineral", "specification", "quantity", "destination", "inspection", "documentation", "payment_pathway", "buyer_authority", "intended_price", "technical_requirements"],
+  "qualified_conversion_minimum": 8
+}

@@ -1,0 +1,7 @@
+{
+  "minerals": [
+    {"id": "MONAZITE", "name": "Monazite", "review_profile": "elevated", "claim_notes": ["technical", "transport", "radiological", "regulatory", "documentation"]},
+    {"id": "ZIRCON_SAND", "name": "Zircon sand", "review_profile": "standard", "claim_notes": ["grade", "moisture", "packaging", "inspection", "destination"]},
+    {"id": "ILMENITE", "name": "Ilmenite", "review_profile": "standard", "claim_notes": ["grade", "logistics", "destination", "inspection"]}
+  ]
+}

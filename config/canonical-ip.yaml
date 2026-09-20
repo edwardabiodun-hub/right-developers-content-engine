@@ -1,0 +1,13 @@
+{
+  "concepts": [
+    {"id": "TRADE_READINESS", "name": "Trade Readiness", "definition": "The readiness of a mineral conversation to progress toward executable terms."},
+    {"id": "BUYER_READINESS", "name": "Buyer Readiness", "definition": "The authority, capability, and intent required to transact."},
+    {"id": "ASSAY_BEFORE_TERMS", "name": "Assay Before Terms", "definition": "Technical and quality information precedes meaningful commercial alignment."},
+    {"id": "COMMERCIAL_GATES", "name": "Commercial Gates", "definition": "A transaction advances only when the next stage requirements are satisfied."},
+    {"id": "SPECIFICATION_TERMS", "name": "Specification -> Terms", "definition": "Product and transaction specifications shape commercial terms."},
+    {"id": "INQUIRY_COMPLETENESS", "name": "Inquiry Completeness", "definition": "The information needed to assess a buyer request responsibly."},
+    {"id": "DESTINATION_FIT", "name": "Destination Fit", "definition": "The interaction between destination, logistics, documentation, and feasibility."},
+    {"id": "INSPECTION_BEFORE_COMMITMENT", "name": "Inspection Before Commitment", "definition": "Inspection expectations are aligned before a conversation is treated as executable."},
+    {"id": "INTEREST_IS_NOT_READINESS", "name": "Interest Is Not Readiness", "definition": "A request for price alone is not evidence of transactional capability."}
+  ]
+}

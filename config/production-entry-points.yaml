@@ -1,0 +1,24 @@
+{
+  "schema_version": "right_developers.production_entry_points.v1",
+  "provider_policy": "none",
+  "entry_points": {
+    "daily_content_package": {
+      "module": "right_developers_engine.orchestrator",
+      "callable": "generate_content_package",
+      "status": "canonical",
+      "provider_default": "none"
+    },
+    "content_validation": {
+      "module": "right_developers_engine.validation",
+      "callable": "validate_content",
+      "status": "canonical",
+      "provider_default": "none"
+    },
+    "performance_observation": {
+      "module": "right_developers_engine.performance",
+      "callable": "append_performance_observation",
+      "status": "canonical",
+      "provider_default": "none"
+    }
+  }
+}

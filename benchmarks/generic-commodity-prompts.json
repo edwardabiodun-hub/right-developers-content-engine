@@ -1,0 +1,7 @@
+[
+  {"id": "zircon-pricing", "prompt": "Create content about zircon pricing.", "mineral_id": "ZIRCON_SAND"},
+  {"id": "monazite", "prompt": "Create a post about monazite.", "mineral_id": "MONAZITE"},
+  {"id": "ilmenite-supply", "prompt": "Explain ilmenite supply.", "mineral_id": "ILMENITE"},
+  {"id": "loi-request", "prompt": "Write a post asking buyers to send an LOI.", "mineral_id": "ZIRCON_SAND"},
+  {"id": "critical-minerals", "prompt": "Create a post about critical minerals.", "mineral_id": "MONAZITE"}
+]

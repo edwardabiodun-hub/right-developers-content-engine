@@ -1,0 +1,10 @@
+{
+  "audiences": [
+    {"id": "PROCESSOR_REFINER", "name": "Processors and refiners"},
+    {"id": "INDUSTRIAL_MANUFACTURER", "name": "Industrial manufacturers"},
+    {"id": "MINERAL_TRADER", "name": "Mineral traders and distributors"},
+    {"id": "PROCUREMENT_TEAM", "name": "Procurement and sourcing teams"},
+    {"id": "DOWNSTREAM_MATERIALS", "name": "Downstream materials companies"},
+    {"id": "QUALIFIED_INTERMEDIARY", "name": "Qualified intermediaries"}
+  ]
+}

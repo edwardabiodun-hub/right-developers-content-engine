@@ -1,0 +1,5 @@
+{
+  "north_star": "More transaction-ready conversations; fewer vague inquiries.",
+  "root_concept": "TRADE_READINESS",
+  "tree": ["BUYER_READINESS", "ASSAY_BEFORE_TERMS", "COMMERCIAL_GATES", "SPECIFICATION_TERMS"]
+}

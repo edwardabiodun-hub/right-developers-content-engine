@@ -1,0 +1,5 @@
+{
+  "weights": {"trade_readiness": 0.12, "buyer_specificity": 0.10, "mechanism": 0.14, "evidence": 0.12, "mineral_accuracy": 0.12, "inquiry_quality": 0.12, "differentiation": 0.10, "cta_fit": 0.08, "canonical_consistency": 0.06, "generic_language": 0.02, "repetition": 0.02},
+  "pass_threshold": 3.5,
+  "dimension_floor": 3
+}

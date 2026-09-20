@@ -1,0 +1,5 @@
+{
+  "generic_phrases": ["optimize your procurement", "unlock better pricing", "drive transformation", "improve efficiency", "scale your business"],
+  "required_for_pass": ["concept_ids", "claims", "body", "platform", "audience_id", "mineral_id"],
+  "human_review_required": true
+}

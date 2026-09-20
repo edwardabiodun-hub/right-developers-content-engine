@@ -1,0 +1,4 @@
+{
+  "required_fields": ["entry_id", "status", "canonical_concept"],
+  "statuses": ["drafted", "validated", "needs_revision", "approved", "published", "rejected"]
+}

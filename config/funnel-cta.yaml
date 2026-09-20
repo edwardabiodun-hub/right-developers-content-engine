@@ -1,0 +1,11 @@
+{
+  "request_info_route": "/request-info",
+  "tiers": {
+    "0": {"name": "ENGAGEMENT", "commercial": false},
+    "1": {"name": "SELF_APPLIED_VALUE", "commercial": false},
+    "2": {"name": "PROOF_INSPECTION", "commercial": false},
+    "3": {"name": "READINESS_EVALUATION", "commercial": true},
+    "4": {"name": "QUALIFIED_CONVERSION", "commercial": true}
+  },
+  "stage_ceilings": {"ATTENTION": 0, "EDUCATION": 1, "PROOF": 2, "EVALUATION": 3, "CONVERSION": 4}
+}

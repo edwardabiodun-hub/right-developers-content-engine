@@ -1,0 +1,9 @@
+[build-system]
+requires = []
+build-backend = "setuptools.build_meta:__legacy__"
+
+[project]
+name = "right-developers-content-engine"
+version = "0.1.0"
+description = "Provider-free content strategy and validation engine for Right Developers"
+requires-python = ">=3.11"

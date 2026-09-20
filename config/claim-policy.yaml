@@ -1,0 +1,5 @@
+{
+  "statuses": ["VERIFIED", "SOURCE_REQUIRED", "ILLUSTRATIVE", "UNKNOWN"],
+  "prohibited_unverified_categories": ["price", "availability", "volume", "origin", "certification", "customer_result", "testimonial", "regulatory_status"],
+  "sensitive_minerals": ["MONAZITE"]
+}

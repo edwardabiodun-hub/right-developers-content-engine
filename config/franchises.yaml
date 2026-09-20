@@ -1,0 +1,14 @@
+{
+  "franchises": [
+    {"id": "INQUIRY_NOT_READY", "name": "The Inquiry Is Not Ready Yet", "concept_ids": ["INQUIRY_COMPLETENESS", "INTEREST_IS_NOT_READINESS"], "cta_ceiling": 2},
+    {"id": "ASSAY_BEFORE_TERMS", "name": "Assay Before Terms", "concept_ids": ["ASSAY_BEFORE_TERMS"], "cta_ceiling": 2},
+    {"id": "WHAT_CHANGES_CONVERSATION", "name": "What Changes the Conversation", "concept_ids": ["COMMERCIAL_GATES"], "cta_ceiling": 2},
+    {"id": "ONE_MINERAL_THREE_QUESTIONS", "name": "One Mineral, Three Buyer Questions", "concept_ids": ["BUYER_READINESS"], "cta_ceiling": 1},
+    {"id": "SPECIFICATION_TO_TERMS", "name": "Specification -> Terms", "concept_ids": ["SPECIFICATION_TERMS"], "cta_ceiling": 2},
+    {"id": "COMMERCIAL_GATE_REVIEW", "name": "Commercial Gate Review", "concept_ids": ["COMMERCIAL_GATES"], "cta_ceiling": 3},
+    {"id": "DESTINATION_FIT_CHECK", "name": "Destination Fit Check", "concept_ids": ["DESTINATION_FIT"], "cta_ceiling": 2},
+    {"id": "INSPECTION_BEFORE_COMMITMENT", "name": "Inspection Before Commitment", "concept_ids": ["INSPECTION_BEFORE_COMMITMENT"], "cta_ceiling": 2},
+    {"id": "BUYER_READINESS_ERRORS", "name": "Buyer Readiness Errors", "concept_ids": ["BUYER_READINESS"], "cta_ceiling": 1},
+    {"id": "INTEREST_TO_ACTIONABLE", "name": "From Product Interest to Actionable Inquiry", "concept_ids": ["INTEREST_IS_NOT_READINESS"], "cta_ceiling": 4}
+  ]
+}

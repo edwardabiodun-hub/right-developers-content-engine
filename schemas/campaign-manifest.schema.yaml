@@ -1,0 +1,4 @@
+{
+  "required_fields": ["campaign_id", "campaign_name", "status", "objective", "target_audience", "mineral_id", "stage", "franchise_id", "platforms"],
+  "statuses": ["draft", "active", "paused", "complete", "archived"]
+}

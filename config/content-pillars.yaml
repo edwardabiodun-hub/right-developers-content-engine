@@ -1,0 +1,12 @@
+{
+  "pillars": [
+    {"id": "BUYER_READINESS", "name": "Buyer Readiness"},
+    {"id": "ASSAY_SPECIFICATION", "name": "Assay and Specification Literacy"},
+    {"id": "TERMS_PRICING_DRIVERS", "name": "Commercial Terms and Pricing Drivers"},
+    {"id": "INSPECTION_DOCUMENTATION_PAYMENT", "name": "Inspection, Documentation, and Payment Readiness"},
+    {"id": "LOGISTICS_DESTINATION", "name": "Logistics and Destination Fit"},
+    {"id": "MINERAL_EDUCATION", "name": "Mineral-Specific Education"},
+    {"id": "RESPONSIBLE_TRADE", "name": "Responsible Trade and Counterparty Discipline"},
+    {"id": "QUALIFIED_CONVERSION", "name": "Qualified Inquiry Conversion"}
+  ]
+}

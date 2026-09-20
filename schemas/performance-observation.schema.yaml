@@ -1,0 +1,4 @@
+{
+  "required_fields": ["content_id", "platform", "qualified_inquiries", "saves"],
+  "learning_mutations_allowed": ["evidence_lens", "format", "hook", "platform"]
+}
