@@ -8,6 +8,12 @@
       "status": "canonical",
       "provider_default": "none"
     },
+    "platform_post_generation": {
+      "module": "right_developers_engine.cli",
+      "callable": "main",
+      "status": "canonical",
+      "provider_default": "none"
+    },
     "content_validation": {
       "module": "right_developers_engine.validation",
       "callable": "validate_content",

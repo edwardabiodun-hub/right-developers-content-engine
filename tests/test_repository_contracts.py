@@ -13,7 +13,12 @@ class RepositoryContractsTests(unittest.TestCase):
         registry = load_json_subset_yaml(ROOT / "config" / "production-entry-points.yaml")
         self.assertEqual(
             set(registry["entry_points"]),
-            {"daily_content_package", "content_validation", "performance_observation"},
+            {
+                "daily_content_package",
+                "platform_post_generation",
+                "content_validation",
+                "performance_observation",
+            },
         )
         self.assertTrue(
             all(item["provider_default"] == "none" for item in registry["entry_points"].values())

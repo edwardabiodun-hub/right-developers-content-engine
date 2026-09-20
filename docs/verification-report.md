@@ -10,7 +10,7 @@ Command:
 & "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe" -m unittest discover -s tests -p "test_*.py" -v
 ```
 
-Result: **PASS — 18 tests, 0 failures, 0 errors**.
+Result: **PASS — 21 tests, 0 failures, 0 errors**.
 
 Coverage includes:
 
@@ -25,6 +25,8 @@ Coverage includes:
 - Append-only history and performance observations.
 - Bounded performance recommendations.
 - Generic commodity benchmark transformations.
+- LinkedIn, Instagram, and Facebook adapter output.
+- CLI package generation and dated output folders.
 
 ## Hygiene Check
 
@@ -37,5 +39,6 @@ The current engine creates and validates content recommendations. It does not pu
 ## Known Limitations
 
 - The current orchestrator creates a deterministic starter package; richer generation policies and platform adapters are the next extension point.
+- The current platform adapters create deterministic review drafts; they do not call a language model or publish to social platforms.
 - The current benchmark runner validates strategic routing and review requirements; it does not call a language model.
 - The standalone repository is committed locally at `4b98818` with the configured GitHub noreply identity. No remote push was attempted.
