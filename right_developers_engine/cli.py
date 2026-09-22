@@ -8,6 +8,7 @@ from .campaigns import CampaignManifest
 from .history import History
 from .orchestrator import generate_content_package
 from .registries import load_domain_registries
+from .visuals import render_platform_assets
 
 
 SUPPORTED_PLATFORMS = ("linkedin", "instagram", "facebook")
@@ -24,6 +25,7 @@ def _parser() -> argparse.ArgumentParser:
     parser.add_argument("--platforms", nargs="+", choices=SUPPORTED_PLATFORMS, default=list(SUPPORTED_PLATFORMS))
     parser.add_argument("--output-dir", default="outputs")
     parser.add_argument("--date", default=date.today().isoformat())
+    parser.add_argument("--base-image", default=None, help="Optional local mineral image used as the visual scene source.")
     return parser
 
 
@@ -65,7 +67,10 @@ def main(argv: list[str] | None = None) -> int:
     output_dir.mkdir(parents=True, exist_ok=True)
     for platform, text in render_platform_posts(package, manifest).items():
         (output_dir / f"{platform}.md").write_text(text + "\n", encoding="utf-8")
-    (output_dir / "package.json").write_text(json.dumps(_metadata(package, manifest), indent=2) + "\n", encoding="utf-8")
+    assets = render_platform_assets(package, manifest, output_dir / "assets", Path(args.base_image) if args.base_image else None)
+    metadata = _metadata(package, manifest)
+    metadata["assets"] = assets["assets"]
+    (output_dir / "package.json").write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
     print(f"Review package written to {output_dir}")
     return 0
 

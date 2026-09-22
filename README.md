@@ -37,4 +37,19 @@ $py = "$env:USERPROFILE\.cache\codex-runtimes\codex-primary-runtime\dependencies
   --output-dir outputs
 ```
 
-The command writes `linkedin.md`, `instagram.md`, `facebook.md`, and `package.json` to a dated folder under `outputs/`. The metadata keeps the package in `human_review_required` status. The engine does not publish or schedule posts.
+The command writes `linkedin.md`, `instagram.md`, `facebook.md`, `package.json`, and platform-ready PNG assets to a dated folder under `outputs/`. By default, the visual layer uses a deterministic mineral scene so the engine remains provider-free. To use a real product or mineral image, pass a local source image:
+
+```powershell
+& $py -m right_developers_engine.cli `
+  --campaign-id TR-CLI-001 `
+  --campaign-name "Trade Readiness Foundations" `
+  --mineral ZIRCON_SAND `
+  --audience PROCUREMENT_TEAM `
+  --stage EDUCATION `
+  --franchise ASSAY_BEFORE_TERMS `
+  --platforms linkedin instagram facebook `
+  --output-dir outputs `
+  --base-image assets/source/zircon-sand-lab.png
+```
+
+Each package includes `assets/linkedin.png`, `assets/instagram.png`, `assets/facebook.png`, and `assets/asset-manifest.json`. The metadata keeps the package in `human_review_required` status. The engine does not publish or schedule posts.
