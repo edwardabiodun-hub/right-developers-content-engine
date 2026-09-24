@@ -53,3 +53,15 @@ The command writes `linkedin.md`, `instagram.md`, `facebook.md`, `package.json`,
 ```
 
 Each package includes `assets/linkedin.png`, `assets/instagram.png`, `assets/facebook.png`, and `assets/asset-manifest.json`. The metadata keeps the package in `human_review_required` status. The engine does not publish or schedule posts.
+
+## Create Word Packages
+
+Create platform-specific Word documents with the matching image embedded and the post copy formatted for review:
+
+```powershell
+& $py scripts/create_word_packages.py `
+  --package-dir outputs/2026-09-22-tr-001 `
+  --output-dir outputs/2026-09-22-tr-001/word
+```
+
+This writes one `.docx` file per platform under the package's `word` folder.
